@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Germania One', cursive;
+    background-image: url(../images/outdoor-forest-rink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    /* gap: 1em; */
+    background-color: white;
+    margin: 2em 8em;
+    padding: 2em;
+}
+
+main p:nth-child(2) {
+    font-size: 2em;
+    border: black dashed 2px;
+    /* font-weight: bold; */
+}
