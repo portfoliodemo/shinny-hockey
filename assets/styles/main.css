@@ -1,7 +1,12 @@
 
+/* Visualize every element with a white box - debugging */
+/* * {
+    outline: 1px solid whitesmoke !important;
+  } */
+
 body {
     font-family: 'Germania One', cursive;
-    background-image: url(../images/outdoor-forest-rink.jpg);
+    background-image: url(../images/dimly-lit-rink.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,13 +21,38 @@ main {
     justify-content: center;
     justify-items: center;
     /* gap: 1em; */
-    background-color: white;
-    margin: 2em 8em;
-    padding: 2em;
+    margin: 0 4em;
+    padding: 1em;
+    color: white;
+}
+
+main p {
+    margin: 0.5em 0;
 }
 
 main p:nth-child(2) {
     font-size: 2em;
     border: black dashed 2px;
     /* font-weight: bold; */
+}
+
+.signup {
+    margin: 1em 0;
+    padding: 1em;
+    font-size: 2em;
+    font-family: 'Germania One', cursive;;
+    background-color: #0033ab;
+    border-color: aqua;
+    color: aqua;
+    /* background-color: rgb(187,221,238); */
+    /* background-color: rgba(1,131,218,0.1); */
+    /* color: rgb(0, 50, 160); */
+    /* color: rgb(200, 16, 46); */
+    border-radius: 1em;
+}
+
+.signup:hover {
+    background-color: aqua;
+    color: #0033ab;
+    /* color: rgba(255, 0, 0, 0.801); */
 }
